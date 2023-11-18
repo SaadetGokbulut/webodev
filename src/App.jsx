@@ -147,7 +147,6 @@ const yaziListesi = [
   React.useEffect(()=>{
     localStorage.setItem("aranan",aramaMetni)
   },[aramaMetni])
-  //bi kere tetiklenir bos birakirsak
 
   return (
     <>
